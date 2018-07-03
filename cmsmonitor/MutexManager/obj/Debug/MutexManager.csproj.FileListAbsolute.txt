@@ -1,0 +1,6 @@
+D:\Users\ALomb4\source\repos\HostSwitcher\MutexManager\bin\Debug\MutexManager.dll
+D:\Users\ALomb4\source\repos\HostSwitcher\MutexManager\bin\Debug\MutexManager.pdb
+D:\Users\ALomb4\source\repos\HostSwitcher\MutexManager\obj\Debug\MutexManager.csprojResolveAssemblyReference.cache
+D:\Users\ALomb4\source\repos\HostSwitcher\MutexManager\obj\Debug\MutexManager.csproj.CoreCompileInputs.cache
+D:\Users\ALomb4\source\repos\HostSwitcher\MutexManager\obj\Debug\MutexManager.dll
+D:\Users\ALomb4\source\repos\HostSwitcher\MutexManager\obj\Debug\MutexManager.pdb

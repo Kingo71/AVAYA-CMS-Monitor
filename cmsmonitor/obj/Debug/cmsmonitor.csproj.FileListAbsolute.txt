@@ -1,0 +1,14 @@
+d:\users\alomb4\source\repos\cmsmonitor\bin\Debug\cmsmonitor.exe.config
+d:\users\alomb4\source\repos\cmsmonitor\bin\Debug\cmsmonitor.exe
+d:\users\alomb4\source\repos\cmsmonitor\bin\Debug\cmsmonitor.pdb
+d:\users\alomb4\source\repos\cmsmonitor\obj\Debug\cmsmonitor.Properties.Resources.resources
+d:\users\alomb4\source\repos\cmsmonitor\obj\Debug\cmsmonitor.csproj.GenerateResource.cache
+d:\users\alomb4\source\repos\cmsmonitor\obj\Debug\cmsmonitor.csproj.CoreCompileInputs.cache
+d:\users\alomb4\source\repos\cmsmonitor\obj\Debug\cmsmonitor.exe
+d:\users\alomb4\source\repos\cmsmonitor\obj\Debug\cmsmonitor.pdb
+d:\users\alomb4\source\repos\cmsmonitor\bin\Debug\HtmlAgilityPack.dll
+d:\users\alomb4\source\repos\cmsmonitor\bin\Debug\HtmlAgilityPack.pdb
+d:\users\alomb4\source\repos\cmsmonitor\bin\Debug\HtmlAgilityPack.xml
+d:\users\alomb4\source\repos\cmsmonitor\obj\Debug\cmsmonitor.csproj.CopyComplete
+d:\users\alomb4\source\repos\cmsmonitor\obj\Debug\cmsmonitor.Form1.resources
+D:\Users\ALomb4\source\repos\cmsmonitor\obj\Debug\cmsmonitor.csprojAssemblyReference.cache
