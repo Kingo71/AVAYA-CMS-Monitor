@@ -30,6 +30,7 @@ namespace cmsmonitor
         DateTime et;
         DateTime tn;
         DateTime htmlDate;
+        private string serverID;
 
         public CustomApplicationContext()
         {
@@ -61,6 +62,12 @@ namespace cmsmonitor
                 endTime = node.InnerText;
                 endTime = endTime.Replace("\r", string.Empty).Replace("\n", string.Empty);
 
+                // Server User ID
+                node = config.SelectSingleNode("//server");
+                serverID = node.InnerText;
+                serverID = serverID.Replace("\r", string.Empty).Replace("\n", string.Empty);
+
+
                 var scriptHtml = File.ReadLines(scriptPath).SkipWhile(line => !line.Contains("Rep.SaveHTML(\"")).Take(1);
 
                 foreach (String line in scriptHtml)
@@ -73,8 +80,7 @@ namespace cmsmonitor
                 htmlPath = @"\" + htmlPath;
                 htmlPath = htmlPath.Replace("\r", string.Empty).Replace("\n", string.Empty);
 
-
-
+                
 
             }
             catch (FileNotFoundException)
@@ -141,7 +147,7 @@ namespace cmsmonitor
                    
                     notifyIcon.ContextMenuStrip.Items.Clear();
                     CmsCheck();
-                    if (user == @"EMEA\symposium" || user == @"EMEA\Alom3246")
+                    if (user == serverID)
                     {
                         ToolStripMenuItem toolsMenu = new ToolStripMenuItem("Tools");
                         notifyIcon.ContextMenuStrip.Items.Add(toolsMenu);
@@ -156,7 +162,7 @@ namespace cmsmonitor
                 }
                 
                                
-                if ((user == @"EMEA\symposium" || user == @"EMEA\Alom3246") && active && onTime) Process.Start(scriptPath);
+                if ((user == serverID) && active && onTime) Process.Start(scriptPath);
                 
             }
 
