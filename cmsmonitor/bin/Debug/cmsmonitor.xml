@@ -1,8 +1,6 @@
 <config>
-<html_path>\\amsfilep01\Nike Retail Agents\CMSMonitor\realtime_status.HTML</html_path>
 <script_path>Save HTML-QueueAgent Status SL.acsauto</script_path>
 <start>08:00 AM</start>
 <stop>07:00 PM</stop>
-<server>Alom3246</server>
+<server></server>
 </config>
-
