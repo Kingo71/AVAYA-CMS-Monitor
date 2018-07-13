@@ -86,8 +86,6 @@ namespace cmsmonitor
             catch (FileNotFoundException)
             {
                 Console.WriteLine("file non trovato");
-                htmlPath = @"\\amsfilep01\Nike Retail Agents\realtime_status.HTML";
-                scriptPath = @"Save HTML-QueueAgent Status SL.acsauto";
             }
 
             components = new System.ComponentModel.Container();
@@ -95,7 +93,7 @@ namespace cmsmonitor
             {
                 ContextMenuStrip = new ContextMenuStrip(),
                 Icon = Properties.Resources.Phone_call, 
-                Text = "CMS Monitor V1.0.0 - By Angelo Lombardo @ GRSD AMS",
+                Text = "CMS Monitor V1.0.0 - By Angelo Lombardo",
                 Visible = true
             };
             notifyIcon.ContextMenuStrip.Font = new Font("Lucida Console", 8);
@@ -106,7 +104,7 @@ namespace cmsmonitor
 
             notifyIcon.ContextMenuStrip.Items.Add(about);
             
-            about.DropDown.Items.Add("CMS Monitor V1.0.0 / By Angelo Lombardo @GRSD AMS");
+            about.DropDown.Items.Add("CMS Monitor V1.0.0 / By Angelo Lombardo");
             notifyIcon.ContextMenuStrip.Items.Add("Exit");
 
             notifyIcon.ContextMenuStrip.Opening += ContextMenuStrip_Opening;
@@ -157,7 +155,7 @@ namespace cmsmonitor
                     
                     ToolStripMenuItem about = new ToolStripMenuItem("About");
                     notifyIcon.ContextMenuStrip.Items.Add(about);
-                    about.DropDown.Items.Add("CMS Monitor V1.0.0 / By Angelo Lombardo @GRSD AMS");
+                    about.DropDown.Items.Add("CMS Monitor V1.0.0 / By Angelo Lombardo");
                     notifyIcon.ContextMenuStrip.Items.Add("Exit");
                 }
                 

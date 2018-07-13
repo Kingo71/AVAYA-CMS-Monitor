@@ -26,3 +26,17 @@ D:\Users\ALomb4\source\repos\C-Sharp-Projects\cmsmonitor\obj\Debug\cmsmonitor.cs
 D:\Users\ALomb4\source\repos\C-Sharp-Projects\cmsmonitor\obj\Debug\cmsmonitor.csproj.CopyComplete
 D:\Users\ALomb4\source\repos\C-Sharp-Projects\cmsmonitor\obj\Debug\cmsmonitor.exe
 D:\Users\ALomb4\source\repos\C-Sharp-Projects\cmsmonitor\obj\Debug\cmsmonitor.pdb
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\cmsmonitor.exe.config
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\cmsmonitor.exe
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\cmsmonitor.pdb
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\HtmlAgilityPack.dll
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\HtmlAgilityPack.pdb
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\HtmlAgilityPack.xml
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.csprojAssemblyReference.cache
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.Form1.resources
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.Properties.Resources.resources
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.csproj.GenerateResource.cache
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.csproj.CoreCompileInputs.cache
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.csproj.CopyComplete
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.exe
+D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.pdb
