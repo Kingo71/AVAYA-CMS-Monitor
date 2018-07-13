@@ -14,12 +14,12 @@ Change cmsmonitor.xml settings for your needs.
 
 Config structure:
 
-\<config>
-\<script_path>Save HTML-QueueAgent Status SL.acsauto\</script_path>  // Path to the htlm generator script
-\<start>08:00 AM\</start> // Starting time for monitoring
-\<stop>07:00 PM\</stop> // Ending time for monitoring
-\<server>xxxx\</server> // User name server 
-\</config>
+\<config>\n
+\<script_path>Save HTML-QueueAgent Status SL.acsauto\</script_path>  // Path to the htlm generator script \n
+\<start>08:00 AM\</start> // Starting time for monitoring \n
+\<stop>07:00 PM\</stop> // Ending time for monitoring \n
+\<server>xxxx\</server> // User name server \n
+\</config>\n
 
 
 
