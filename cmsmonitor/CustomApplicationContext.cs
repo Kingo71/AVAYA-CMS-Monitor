@@ -23,7 +23,9 @@ namespace cmsmonitor
         private String endTime;
         private Dictionary<String, String[]> agentlist = new Dictionary<string, string[]>();
         private String callsWaiting;
-        String user = System.Security.Principal.WindowsIdentity.GetCurrent().Name;
+
+        String user = System.Security.Principal.WindowsIdentity.GetCurrent().Name.ToLower();
+                          
         bool active = true;
         bool onTime;
         DateTime st;
@@ -65,9 +67,8 @@ namespace cmsmonitor
                 // Server User ID
                 node = config.SelectSingleNode("//server");
                 serverID = node.InnerText;
-                serverID = serverID.Replace("\r", string.Empty).Replace("\n", string.Empty);
-
-
+                serverID = serverID.Replace("\r", string.Empty).Replace("\n", string.Empty).ToLower();
+                
                 var scriptHtml = File.ReadLines(scriptPath).SkipWhile(line => !line.Contains("Rep.SaveHTML(\"")).Take(1);
 
                 foreach (String line in scriptHtml)

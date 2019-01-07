@@ -40,3 +40,17 @@ D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.c
 D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.csproj.CopyComplete
 D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.exe
 D:\Users\ALomb4\Source\Repos\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.pdb
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\cmsmonitor.exe.config
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\cmsmonitor.exe
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\cmsmonitor.pdb
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\HtmlAgilityPack.dll
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\HtmlAgilityPack.pdb
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\bin\Debug\HtmlAgilityPack.xml
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.csprojAssemblyReference.cache
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.Form1.resources
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.Properties.Resources.resources
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.csproj.GenerateResource.cache
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.csproj.CoreCompileInputs.cache
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.csproj.CopyComplete
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.exe
+C:\Users\ALomb4\Source\Repos\Kingo71\AVAYA-CMS-Monitor\cmsmonitor\obj\Debug\cmsmonitor.pdb
