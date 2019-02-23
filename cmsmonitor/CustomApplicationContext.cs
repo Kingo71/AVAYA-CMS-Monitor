@@ -25,7 +25,7 @@ namespace cmsmonitor
         private String callsWaiting;
 
         String user = System.Security.Principal.WindowsIdentity.GetCurrent().Name.ToLower();
-                          
+
         bool active = true;
         bool onTime;
         DateTime st;
@@ -53,7 +53,12 @@ namespace cmsmonitor
                 XmlNode node = config.SelectSingleNode("//script_path");
                 scriptPath = node.InnerText;
                 scriptPath = scriptPath.Replace("\r", string.Empty).Replace("\n", string.Empty);
-                
+
+                // HTML path
+                node = config.SelectSingleNode("//html_path");
+                htmlPath = node.InnerText;
+                htmlPath = htmlPath.Replace("\r", string.Empty).Replace("\n", string.Empty);
+
                 // Starting hours (HH:MM)
                 node = config.SelectSingleNode("//start");
                 startTime = node.InnerText;
@@ -69,7 +74,7 @@ namespace cmsmonitor
                 serverID = node.InnerText;
                 serverID = serverID.Replace("\r", string.Empty).Replace("\n", string.Empty).ToLower();
                 
-                var scriptHtml = File.ReadLines(scriptPath).SkipWhile(line => !line.Contains("Rep.SaveHTML(\"")).Take(1);
+                /*var scriptHtml = File.ReadLines(scriptPath).SkipWhile(line => !line.Contains("Rep.SaveHTML(\"")).Take(1);
 
                 foreach (String line in scriptHtml)
                 {
@@ -80,7 +85,7 @@ namespace cmsmonitor
                 htmlPath = htmlPath.Substring(26, htmlPath.IndexOf(".HTML") - 21);
                 htmlPath = @"\" + htmlPath;
                 htmlPath = htmlPath.Replace("\r", string.Empty).Replace("\n", string.Empty);
-
+                */
                 
 
             }
@@ -104,8 +109,8 @@ namespace cmsmonitor
             ToolStripMenuItem about = new ToolStripMenuItem("About");
 
             notifyIcon.ContextMenuStrip.Items.Add(about);
-            
-            about.DropDown.Items.Add("CMS Monitor V1.0.0 / By Angelo Lombardo");
+
+            about.DropDown.Items.Add("CMS Monitor V1.0.0 / By Angelo Lombardo - " + user);
             notifyIcon.ContextMenuStrip.Items.Add("Exit");
 
             notifyIcon.ContextMenuStrip.Opening += ContextMenuStrip_Opening;
@@ -156,7 +161,7 @@ namespace cmsmonitor
                     
                     ToolStripMenuItem about = new ToolStripMenuItem("About");
                     notifyIcon.ContextMenuStrip.Items.Add(about);
-                    about.DropDown.Items.Add("CMS Monitor V1.0.0 / By Angelo Lombardo");
+                    about.DropDown.Items.Add("CMS Monitor V1.0.0 / By Angelo Lombardo - " + user);
                     notifyIcon.ContextMenuStrip.Items.Add("Exit");
                 }
                 

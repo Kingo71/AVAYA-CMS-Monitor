@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\cmsmonitor"
   ],
+  "SelectedNode": "\\cmsmonitor\\MutexManager",
   "PreviewInSolutionExplorer": false
 }
